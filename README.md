@@ -1,22 +1,34 @@
-DesafioClienteContato
+# DesafioClienteContato
+
 Projeto desenvolvido como desafio para praticar o desenvolvimento de uma API RESTful utilizando Java e Spring Boot. A aplicação permite o gerenciamento de clientes e seus respectivos contatos.
 
-🚀 Tecnologias utilizadas
-Java 17+
+## 🚀 Tecnologias utilizadas
 
-Spring Boot
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- Maven
 
-Spring Data JPA
+## ⚙️ Funcionalidades
 
-PostgreSQL
+- Cadastro de clientes
+- Cadastro de contatos vinculados a clientes
+- Listagem de clientes e seus contatos
+- Atualização e remoção de clientes e contatos
 
-Maven
+A aplicação estará disponível em `http://localhost:8080`.
 
-⚙️ Funcionalidades
-Cadastro de clientes
+## 📌 Endpoints principais
 
-Cadastro de contatos vinculados a clientes
+- `POST /clientes`: Cadastra um novo cliente.
+- `GET /clientes`: Lista todos os clientes.
 
-Listagem de clientes e seus contatos
+## ✅ O que aprendi com este desafio
 
-Atualização e remoção de clientes e contatos
+- Configuração e estruturação de um projeto Spring Boot.
+- Implementação de uma API RESTful com operações CRUD.
+- Integração com banco de dados utilizando Spring Data JPA.
+- Utilização de DTOs para transferência de dados entre camadas.
+- Boas práticas de organização de código e separação de responsabilidades.
+
