@@ -15,7 +15,6 @@ Projeto desenvolvido como desafio para praticar o desenvolvimento de uma API RES
 - Cadastro de clientes
 - Cadastro de contatos vinculados a clientes
 - Listagem de clientes e seus contatos
-- Atualização e remoção de clientes e contatos
 
 A aplicação estará disponível em `http://localhost:8080`.
 
